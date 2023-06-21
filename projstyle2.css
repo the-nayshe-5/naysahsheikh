@@ -54,7 +54,7 @@ footer {
 }
 
 .content_container a {
-    font-family: 'Cascadia Code SemiBold';
+    font-family: 'Cascadia Code SemiBold','Bahnschrift';
     font-size: 20px;
     text-decoration: none;
     color: rgb(63, 63, 63);
