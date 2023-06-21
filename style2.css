@@ -1,9 +1,14 @@
 body {
     background-image:radial-gradient(#FA8AFF,#96F1FF);
+    width: 100%;
 }
 
 #body_home {
     font-family: "Bahnschrift";
+}
+
+footer {
+    font-family: 'Bahnschrift';
 }
 
 .heading {
@@ -207,10 +212,6 @@ body {
     font-weight: normal;
 }
 
-.portfolio_text {
-    font-size: xx-large;
-}
-
 .loading {
     width: 200px;
     height: 120px;
@@ -235,9 +236,14 @@ body {
     padding: 0 30px;
 }
 
+#bio p {
+    font-size: xx-large;
+}
+
 #pfp_large {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     margin-left: -120px;
 }
+
