@@ -1,0 +1,457 @@
+body {
+    background-image:radial-gradient(#FA8AFF,#96F1FF);
+}
+
+#body_home {
+    font-family: "Bahnschrift";
+}
+
+footer {
+    font-family: 'Bahnschrift';
+    margin: 4px 0 0 10px;
+}
+
+.heading {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 30px 0 0px 50px;
+}
+
+.heading a {
+    text-decoration: none;
+}
+
+.back {
+    width: 30px;
+    height: 30px;
+    margin: 30px 50px 0 50px;
+}
+
+.container {
+    height: 200vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1.25fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr), repeat(2,1.25fr), 1fr;
+    margin: 30px 120px 0px 120px;
+}
+
+.slab {
+    grid-column: span 1;
+    grid-row: span 2;
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    border-radius: 18px;
+    box-shadow: 2px 2px 4px grey, -2px -2px 4px whitesmoke;
+    background-color: aliceblue;
+    padding: 14px 50px 0px 14px;
+}
+
+.slab:hover {
+    background-color: #f4deff;
+}
+
+.large {
+    grid-column: span 2;
+}
+
+.small {
+    grid-row: span 1;
+}
+
+.small:hover {
+    text-shadow: 0.5px 0.5px 1px grey;
+}
+
+.full {
+    background-color: #f4deff;
+    grid-column: span 3;
+    grid-row: span 1;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.full:hover {
+    text-shadow: 0.5px 0.5px 1px grey;
+}
+
+.full > a {
+    color: black;
+}
+
+.pfp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 0;
+}
+
+#pfp_large {
+    width: 90%;
+    height: 90%;
+    border-radius: 18px;
+}
+
+#hello {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 37px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.slab_heading {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 20px 0 30px 20px;
+}
+
+.slab_content {
+    text-align: justify;
+    font-size: 19px;
+    margin: 0 0 0 30px;
+}
+
+#info {
+    display: grid;
+    gap: 15px;
+    grid-template-columns:  30px 200px;
+    grid-template-rows: repeat(4, 30px);
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    margin-left: 0;
+}
+
+.sub {
+    color: gray;
+}
+
+a {
+    color: gray;
+}
+
+                        /*Media Queries for About Page*/
+
+@media (min-width: 1004px) and (max-width: 1080px) {
+
+    .heading {
+        font-size: 55px;
+        margin: 20px 0 0px 40px;
+    }
+    
+    .back {
+        width: 28px;
+        height: 28px;
+        margin: 20px 40px 0 30px;
+    }
+    
+    .container {
+        margin: 30px 90px 0px 90px;
+    }
+
+}
+
+@media (min-width: 869px) and (max-width: 1004px) {
+
+    .heading {
+        font-size: 55px;
+        margin: 20px 0 0px 40px;
+    }
+    
+    .back {
+        width: 28px;
+        height: 28px;
+        margin: 20px 40px 0 30px;
+    }
+    
+    .container {
+        height: 187vh;
+        margin: 30px 90px 0px 90px;
+    }
+
+    .slab {
+        padding-right: 30px;
+    }
+
+    #hello {
+        font-size: 30px;
+    }
+
+    .pfp {
+        display: block;
+        padding: 14px 14px 14px 14px;
+    }
+    
+    #pfp_large {
+        width: 100%;
+        height: 100%;
+        border-radius: 13px;
+    }
+    
+    .slab_heading {
+        margin-top: 12px;
+        font-size: xx-large;
+        margin: 10px 0 20px 10px;
+    }
+
+    .slab_content {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+    .about {
+        margin-left: -5px;
+    }
+}
+
+@media (min-width: 806px) and (max-width: 869px) {
+
+    .heading {
+        font-size: 40px;
+        margin: 20px 0 0px 20px;
+    }
+    
+    .back {
+        width: 25px;
+        height: 25px;
+        margin: 20px 20px 0 20px;
+    }
+    
+    .container {
+        height: 180vh;
+        margin: 30px 80px 0px 80px;
+    }
+
+    #hello {
+        font-size: 27px;
+        padding-left: 25px;
+    }
+
+    .slab {
+        padding: 10px 14px 0 14px;
+    }
+
+    .pfp {
+        display: block;
+        padding: 12px 12px 12px 12px;
+    }
+    
+    #pfp_large {
+        width: 100%;
+        height: 100%;
+        border-radius: 13px;
+    }
+    
+    .slab_heading {
+        margin-top: 12px;
+        font-size: x-large;
+    }
+
+    .slab_content {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .about {
+        margin-left: -8px;
+    }
+}
+
+@media (min-width: 646px) and (max-width: 806px) {
+
+    .heading {
+        font-size: 40px;
+        margin: 20px 0 0px 20px;
+    }
+    
+    .back {
+        width: 25px;
+        height: 25px;
+        margin: 20px 20px 0 20px;
+    }
+    
+    .container {
+        height: 210vh;
+        margin: 30px 80px 0px 80px;
+    }
+
+    #hello {
+        font-size: 25px;
+        padding-left: 25px;
+    }
+
+    .slab {
+        padding: 8px 12px 0 12px;
+    }
+
+    .slab_heading {
+        margin-top: 12px;
+        font-size: x-large;
+    }
+
+    .slab_content {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .pfp {
+        display: block;
+        padding: 12px 12px 12px 12px;
+    }
+    
+    #pfp_large {
+        width: 100%;
+        height: 100%;
+        border-radius: 13px;
+    }
+
+    .info {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    #info {
+        gap: 7px;
+        grid-template-columns: 20px 160px 20px 160px;
+        grid-template-rows: 20px 20px;
+        margin-bottom: 15px;
+    }
+
+    .img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .About {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    .about {
+        margin-left: -8px;
+    }
+    
+    .Edu {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .edu {
+        position: relative;
+        right: 20px;
+        bottom: 8px;
+        text-align: left;
+    }
+
+    .proj {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 646px) {
+
+    .heading {
+        font-size: 40px;
+        margin: 20px 0 0px 20px;
+    }
+    
+    .back {
+        width: 25px;
+        height: 25px;
+        margin: 20px 20px 0 20px;
+    }
+    
+    .container {
+        height: 175vh;
+        margin: 30px 40px 0px 40px;
+    }
+
+    #hello {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    .slab {
+        padding: 8px 10px 0 10px;
+    }
+
+    .slab_heading {
+        margin-top: 12px;
+        margin-left: 10px;
+        font-size: large;
+    }
+
+    .slab_content {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .pfp {
+        display: block;
+        padding: 8px 8px 8px 8px;
+    }
+    
+    #pfp_large {
+        width: 100%;
+        height: 100%;
+        border-radius: 13px;
+    }
+
+    .info {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    #info {
+        gap: 7px;
+        grid-template-columns: 15px 100px 15px 100px;
+        grid-template-rows: 15px 15px;
+        margin-bottom: 15px;
+    }
+
+    .img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .About {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    .about {
+        position: relative;
+        right: 12px;
+        margin-left: -8px;
+    }
+    
+    .Edu {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .edu {
+        position: relative;
+        right: 30px;
+        bottom: 8px;
+        text-align: left;
+    }
+
+    .proj {
+        grid-column: span 2;
+    }
+}
