@@ -1,6 +1,5 @@
 body {
     background-image:radial-gradient(#FA8AFF,#96F1FF);
-    width: 100%;
 }
 
 #body_home {
@@ -20,13 +19,13 @@ footer {
 }
 
 .container {
-    height: 450px;
+    height: 80vh;
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 20px 140px 10px 160px;
-    max-height: 450px;
+/*     max-height: 450px; */
 }
 
 .card {
