@@ -19,13 +19,12 @@ footer {
 }
 
 .container {
-    height: 80vh;
+    height: 450px;
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 20px 140px 10px 160px;
-/*     max-height: 450px; */
 }
 
 .card {
@@ -101,7 +100,6 @@ footer {
     }
     
     .container {
-        height: 80vh;
         margin: 20px 120px 10px 160px;
     }
     
@@ -121,7 +119,6 @@ footer {
     }
     
     .container {
-        height: 80vh;
         margin: 20px 100px 10px 100px;
     }
     
@@ -171,7 +168,7 @@ footer {
     }
 
     .container {
-        height: 160vh;
+        height: 900px;
         margin: 20px 90px 10px 90px;
     }
     
@@ -188,95 +185,6 @@ footer {
     .big {
         grid-column: span 4;
     }
-    
-    .heading2 {
-        color: rgb(0, 0, 0);
-        font-size: 60px;
-        font-weight: bolder;
-        margin: 30px 0 0px 50px;
-    }
-    
-    .heading2 a {
-        text-decoration: none;
-    }
-    
-    .back {
-        width: 30px;
-        height: 30px;
-        margin: 30px 50px 0 50px;
-    }
-    
-    .container2 {
-        height: 100vh;
-        display: grid;
-        gap: 5px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 30px 120px 0px 120px;
-    }
-    
-    .slab {
-        grid-column: span 1;
-        display: inline-block;
-        border: 1px solid #e2e2e2;
-        border-radius: 18px;
-        box-shadow: 2px 2px 4px grey, -2px -2px 4px whitesmoke;
-        background-color: aliceblue;
-        padding: 0 12px 0 12px;
-    }
-    
-    .large {
-        grid-column: span 2;
-    }
-    
-    .pfp {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 0 0 0;
-    }
-    
-    #pfp_large {
-        width: 90%;
-        height: 90%;
-        border-radius: 18px;
-    }
-    
-    #hello {
-        display: flex;
-        align-items: center;
-        font-weight: bolder;
-        font-size: 37px;
-        padding-left: 30px;
-    }
-    
-    .slab_heading {
-        font-size: xx-large;
-        font-weight: bolder;
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
-    
-    .slab_content {
-        font-family: 'Calibri';
-        text-align: justify;
-        font-size: large;
-    }
-    
-    #posts {
-        padding-top: 30px; 
-    }
-    
-    .loading {
-        width: 200px;
-        height: 120px;
-        margin: 220px auto;
-    }
-    
-    .loading img {
-        width: 100%;
-        height: 100%;
-    }
 }
 
 @media (max-width: 600px){
@@ -287,7 +195,7 @@ footer {
     }
     
     .container {
-        height: 140vh;
+        height: 800px;
         margin: 0px 80px 10px 80px;
     }
     
@@ -338,94 +246,4 @@ footer {
     #hi a {
         font-weight: normal;
     }
-    
-    .heading2 {
-        color: rgb(0, 0, 0);
-        font-size: 60px;
-        font-weight: bolder;
-        margin: 30px 0 0px 50px;
-    }
-    
-    .heading2 a {
-        text-decoration: none;
-    }
-    
-    .back {
-        width: 30px;
-        height: 30px;
-        margin: 30px 50px 0 50px;
-    }
-    
-    .container2 {
-        height: 100vh;
-        display: grid;
-        gap: 5px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin: 30px 120px 0px 120px;
-    }
-    
-    .slab {
-        grid-column: span 1;
-        display: inline-block;
-        border: 1px solid #e2e2e2;
-        border-radius: 18px;
-        box-shadow: 2px 2px 4px grey, -2px -2px 4px whitesmoke;
-        background-color: aliceblue;
-        padding: 0 12px 0 12px;
-    }
-    
-    .large {
-        grid-column: span 2;
-    }
-    
-    .pfp {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 0 0 0;
-    }
-    
-    #pfp_large {
-        width: 90%;
-        height: 90%;
-        border-radius: 18px;
-    }
-    
-    #hello {
-        display: flex;
-        align-items: center;
-        font-weight: bolder;
-        font-size: 37px;
-        padding-left: 30px;
-    }
-    
-    .slab_heading {
-        font-size: xx-large;
-        font-weight: bolder;
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
-    
-    .slab_content {
-        font-family: 'Calibri';
-        text-align: justify;
-        font-size: large;
-    }
-    
-    #posts {
-        padding-top: 30px; 
-    }
-    
-    .loading {
-        width: 200px;
-        height: 120px;
-        margin: 220px auto;
-    }
-    
-    .loading img {
-        width: 100%;
-        height: 100%;
-    }
-    
 }
