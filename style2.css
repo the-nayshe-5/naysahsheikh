@@ -26,6 +26,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 20px 140px 10px 160px;
+    max-height: 450px;
 }
 
 .card {
