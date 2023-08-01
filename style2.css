@@ -20,7 +20,7 @@ footer {
 }
 
 .container {
-    height: 80vh;
+    height: 450px;
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
