@@ -93,7 +93,7 @@ footer {
 
                         /*Media Queries for Home Page*/
 
-@media (min-width: 978px) and (max-width: 1155px) {
+@media screen and (min-width: 978px) and (max-width: 1155px) {
 
     .heading {
         margin: 2.5rem 0 2rem 7rem;
@@ -112,7 +112,7 @@ footer {
     }
 }
 
-@media (min-width: 810px) and (max-width: 979px){
+@media screen and (min-width: 810px) and (max-width: 979px){
     
     .heading {
         margin: 2rem 0 2rem 5rem;
@@ -160,7 +160,7 @@ footer {
     }    
 }
 
-@media (min-width: 600px) and (max-width: 810px){
+@media screen and (min-width: 600px) and (max-width: 810px){
     
     .heading {
         font-size: 55px;
@@ -187,7 +187,7 @@ footer {
     }
 }
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     
     .heading {
         font-size: 50px;
